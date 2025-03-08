@@ -7,7 +7,7 @@ public class CountNoOfDigits{
         int n=sc.nextInt();
         int digits;
         int count=0;
-        while(n>0)
+        while(n!=0)//if 0 value is not reading in the input
         {
             digits=n%10;//default get the last digit
             count++;//only this code changes

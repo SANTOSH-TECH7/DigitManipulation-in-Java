@@ -11,11 +11,11 @@ public class SumofDigits {
         while(n>0)
         {
             digits=n%10;//default get the last digit
-            // sumv+=digits;//only this code changes
-            count++;
+            sumv+=digits;//only this code changes
+            // count++;
             n=n/10;//default removes last digit
         }
-        System.out.print(count);
+        System.out.print(sumv);
     }
 
     
